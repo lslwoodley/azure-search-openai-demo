@@ -1,0 +1,342 @@
+Date: Thu, 2 Jan 2025 12:01:20 +0000 (UTC)
+Message-ID: <1279465529.27.1735819280247@aff4deb47f87>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26_1824423922.1735819280247"
+
+------=_Part_26_1824423922.1735819280247
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Onboarding New Data Sources to RDS</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Onboarding New Data Sources to RDS</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"OnboardingNewDataSourcestoRDS-Introduction"><span class=
+=3D"inline-comment-marker" data-ref=3D"0044b7c8-b264-4088-9a2d-196e2d803e04=
+">Introduction</span></h1>
+<p>This section details the process used to add acquire and ingest data int=
+o to the Anansi Raw Data Store(RDS). This process takes into consideration =
+the banks internal policies and guides you through the administrative proce=
+sses along with explaining the technical steps to correctly add the data. T=
+he entire process should always be followed and thus has a current estimate=
+d time of 3 weeks to complete all technical and administrative steps. They =
+are 5 main phases to the process.</p>
+<h1 id=3D"OnboardingNewDataSourcestoRDS-Method">Method</h1>
+<p>Our process relies on using a template which which defines how to pull f=
+rom the source into Anansi DB. This methodology allows us to efficiently pu=
+ll from different sources into the Anansi raw data store.</p>
+<p>We use various scripts to decrease the amount of time it takes to fill t=
+he template. To ensure the template is correctly configured we use the foll=
+owing process to avoid challenge in production.</p>
+<h1 id=3D"OnboardingNewDataSourcestoRDS-Phases"><span class=3D"inline-comme=
+nt-marker" data-ref=3D"692b8780-e157-42d6-9133-869c070f4b4d">Phases</span><=
+/h1>
+<p>To complete the data onboarding process you should go through the follow=
+ phases in order:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"68=
+fc7ca1-3677-4a36-868c-6853819d16cd" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 162.0px;">
+<col style=3D"width: 438.0px;">
+<col style=3D"width: 160.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Phase</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Details</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Estimated duration</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a href=3D"https://fcib.atlassian.net/wiki/spaces/~712020563138fabfd946f=
+9a65b9722eb4dc943/pages/3056041997" rel=3D"nofollow">Data Store Research</a=
+></p></td>
+<td class=3D"confluenceTd">
+<p>Identify Core information about the datastore which is necessary for ing=
+estion.</p></td>
+<td class=3D"confluenceTd">
+<p>1 day</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a href=3D"/wiki/spaces/DATA/pages/3056369665/Testing+in+Development+Env=
+ironment" data-linked-resource-id=3D"3056369665" data-linked-resource-versi=
+on=3D"15" data-linked-resource-type=3D"page">Testing in Dev</a></p></td>
+<td class=3D"confluenceTd">
+<p>We create a template and test it to see if its imported as we expected. =
+Once we have verified this we can move on to adding the RDS to production.<=
+/p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"inline-comment-marker" data-ref=3D"5545aecf-f98b-4e68-b75=
+b-b4b123ad2202">1-2 weeks</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a href=3D"/wiki/spaces/DATA/pages/3062136834/QA+Approval+for+Production=
+" data-linked-resource-id=3D"3062136834" data-linked-resource-version=3D"5"=
+ data-linked-resource-type=3D"page">QA Approval</a></p></td>
+<td class=3D"confluenceTd">
+<p>Get permission from boards to implement in production.</p></td>
+<td class=3D"confluenceTd">
+<p>2 weeks</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a href=3D"/wiki/spaces/DATA/pages/3061743674/Implementation+in+Producti=
+on" data-linked-resource-id=3D"3061743674" data-linked-resource-version=3D"=
+3" data-linked-resource-type=3D"page">Production</a></p></td>
+<td class=3D"confluenceTd">
+<p>Add template to production to fully add new RDS.</p></td>
+<td class=3D"confluenceTd">
+<p>1 Day</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><a href=3D"/wiki/spaces/DATA/pages/3062267928/Metadata+Management" data-=
+linked-resource-id=3D"3062267928" data-linked-resource-version=3D"4" data-l=
+inked-resource-type=3D"page">Metadata</a></p></td>
+<td class=3D"confluenceTd">
+<p>.Providing information about the data in the columns so understanding of=
+ the data in the columns can easily be found.</p></td>
+<td class=3D"confluenceTd">
+<p>TBD</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"OnboardingNewDataSourcestoRDS-DataSources">Data Sources</h1>
+<p>We keep track of all data sources being added to Anansi at<a href=3D"/wi=
+ki/spaces/DATA/pages/3062267949/Data+Sources" data-linked-resource-id=3D"30=
+62267949" data-linked-resource-version=3D"2" data-linked-resource-type=3D"p=
+age">Data Sources</a>. To find out information about a data source and its =
+current stage go to the listed link. If adding a new data source make sure =
+to fill out its information here.</p>
+    </div>
+</body>
+</html>
+------=_Part_26_1824423922.1735819280247--

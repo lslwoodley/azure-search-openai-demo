@@ -1,0 +1,315 @@
+Date: Thu, 2 Jan 2025 12:01:35 +0000 (UTC)
+Message-ID: <1021807484.5.1735819295862@5ceb997a867d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4_1531190191.1735819295862"
+
+------=_Part_4_1531190191.1735819295862
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Data Store Research</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Data Store Research</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"DataStoreResearch-Introduction">Introduction</h1>
+<p>In this phase we identify the information needed to onboard a new on-pre=
+mise data source to Anansi RDS. This process involves identifying a subject=
+ matter expert where possible who can explain the data and answering the qu=
+estions listed below which are useful in the following stages to complete s=
+etup of the new data store.</p>
+<h1 id=3D"DataStoreResearch-PhaseDuration">Phase Duration</h1>
+<p>No major bottlenecks once the subject matter expert is easily identified=
+ and available.</p>
+<h1 id=3D"DataStoreResearch-IdentifyingaSubjectMatterExpert">Identifying a =
+Subject Matter Expert</h1>
+<p>If unaware of who the subject matter expert is the a good place to start=
+ is data governance. If the subject matter expert can=E2=80=99t be identifi=
+ed there you can further direct questions to a system analyst or your direc=
+t manager.</p>
+<h1 id=3D"DataStoreResearch-InformationtoObtain">Information to Obtain</h1>
+<p>The information we need to answer about the information is listed below.=
+ This information is needed to correctly setup the template. Care should be=
+ taken to avoid answering all questions to avoid mistakes in setup.</p>
+<h2 id=3D"DataStoreResearch-TemplateInformation"><span class=3D"inline-comm=
+ent-marker" data-ref=3D"c206f4bf-320f-48b5-b245-6931f45a0e90"><span class=
+=3D"inline-comment-marker" data-ref=3D"e82e32e5-3565-4050-8492-cbf97803108d=
+">Template Information</span></span></h2>
+<ul>
+<li>
+<p>What Server/Machine does the Source data sits (primary source, <strong>n=
+ot</strong> data marts where the data has been transformed).</p></li>
+<li>
+<p>Where does the source data reside? In tables? (SQL Server DB/Oracle DB) =
+In files? (Excel, CSV, etc).</p></li>
+<li>
+<p>Identify what time(s) should we pull the data based on business needs an=
+d how often DB is updated?</p></li>
+<li>
+<p>Are there any read-only SQL credentials to access the data?</p></li>
+</ul>
+<ul>
+<li>
+<p>What is the purpose of the data source?</p></li>
+</ul>
+<ul>
+<li>
+<p>What type of data is held in the DB?</p></li>
+</ul>
+<ul>
+<li>
+<p>Where does the data originate (source system)?</p></li>
+<li>
+<p>Is there a DEV Environment that mirrors this DB?</p></li>
+</ul>
+<ul>
+<li>
+<p>Where should the data be pulled from when onboarding to Anansi RDS?</p><=
+/li>
+</ul>
+<ul>
+<li>
+<p>Is the data sent to the DB on the server that is currently being used?</=
+p></li>
+</ul>
+<ul>
+<li>
+<p>How is the data sent? (via File Transfer, SSIS, API, etc)</p></li>
+</ul>
+<ul>
+<li>
+<p>If data is sent by File, what format is it in? (Excel, CSV, etc)</p></li=
+>
+</ul>
+<ul>
+<li>
+<p>How often is the data in the DB updated? (daily, monthly, live, etc)</p>=
+</li>
+<li>
+<p>Is there a data dictionary? Get dictionary if it exists.</p></li>
+</ul>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_4_1531190191.1735819295862--
